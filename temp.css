@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-image: url(https://egqusrjtrmt.exactdn.com/wp-content/uploads/2022/12/temperature-converter-768x512.webp?strip=all&lossy=1&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#convert {
+    background-color: #bba768;
+  }
+  #convert:hover {
+    background-color: #cdeaf3;
+  }
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 123, 0);
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #f4a55a;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #a1b5ff;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #fe5050;  
+  }
+  :-ms-input-placeholder {  
+     color: #f54646;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
